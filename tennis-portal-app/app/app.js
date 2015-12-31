@@ -1,12 +1,26 @@
-'use strict';
+(function (angular) {
+    'use strict';
 
-// Declare app level module which depends on views, and components
-angular.module('myApp', [
-  'ngRoute',
-  'myApp.view1',
-  'myApp.view2',
-  'myApp.version'
-]).
-config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/view1'});
-}]);
+    angular
+        .module('fun.tennisportal', [
+            'ui.router',
+            'ui.bootstrap',
+            'fun.tennisportal.home',
+            'fun.tennisportal.tennis',
+            'fun.tennisportal.contactus'
+
+            // local dependencies
+        ])
+        .config(moduleConfig);
+
+    function moduleConfig ($urlRouterProvider, $stateProvider, $locationProvider) {
+        $locationProvider.hashPrefix(); 
+        $urlRouterProvider.otherwise('/home');
+        $stateProvider
+            .state('fun.tennisportal', {
+                url: '',
+                templateUrl: 'index.html',
+                abstract: true
+            });
+    }
+}(angular));

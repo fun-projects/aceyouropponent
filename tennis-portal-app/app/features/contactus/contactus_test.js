@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.view1 module', function() {
+describe('fun.tennisportal.home module', function() {
 
-  beforeEach(module('myApp.view1'));
+  beforeEach(module('fun.tennisportal.home'));
 
   describe('view1 controller', function(){
 
