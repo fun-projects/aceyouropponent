@@ -2,6 +2,8 @@ logs/*
 !.gitkeep
 node_modules/
 bower_components/
+tennis-portal-app/bower_components/
+tenis-portal-app/README.md
 tmp
 .DS_Store
 .idea
