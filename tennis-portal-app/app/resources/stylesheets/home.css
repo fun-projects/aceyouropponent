@@ -10,5 +10,10 @@ img{
   width: 800px;
   left:35%;
   top:20px;
- margin-left:-200px;
+  margin-left:-200px;
+}
+.footer-block {
+    margin-top: 1em;
+    text-align: center;
+    color: #9d9d9d;
 }

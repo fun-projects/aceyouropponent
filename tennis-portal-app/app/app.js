@@ -8,7 +8,6 @@
             'fun.tennisportal.home',
             'fun.tennisportal.tennis',
             'fun.tennisportal.contactus',
-            'fun.tennisportal.personalTraining',
 
             // local dependencies
             'ngMap'
