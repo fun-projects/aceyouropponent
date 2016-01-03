@@ -3,7 +3,7 @@
 
     angular
         .module('fun.tennisportal.contactus', [
-        ])
+        'ngMap'])
         .config(config);
 
     function config($stateProvider) {

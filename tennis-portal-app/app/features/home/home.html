@@ -1,1 +1,15 @@
-<p>Home</p>
+<div id="slides_control">
+    <div>
+        <uib-carousel interval="homeVm.myInterval" no-wrap="homeVm.noWrapSlides">
+            <uib-slide ng-repeat="slide in homeVm.slides" active="slide.active">
+                <img ng-src="{{slide.image}}">
+                <div class="carousel-caption">
+                    <h4>Slide {{$index+1}}</h4>
+                </div>
+            </uib-slide>
+        </uib-carousel>
+    </div>
+</div>
+<div>
+    <p>Home</p>
+</div>
