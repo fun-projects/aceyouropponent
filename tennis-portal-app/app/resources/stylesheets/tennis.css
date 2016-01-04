@@ -6,6 +6,9 @@
   background-attachment: fixed;
   background-size: cover;
 }
+.div-training.container-fluid{
+  background-color: #e9322d;
+}
 
 #video-background {
 /*  making the video fullscreen  */
@@ -36,7 +39,12 @@ h1 {
   width: 100%;
   font-size: 36px;
   letter-spacing: 3px;
+  line-height: normal;
   color: #fff;
   font-family: Oswald, sans-serif;
   text-align: center;
+}
+.fa.fa-angle-down{
+  color: #e9322d;
+  position: absolute;
 }

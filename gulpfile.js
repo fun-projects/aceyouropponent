@@ -8,10 +8,12 @@ var gulp = require('gulp');
 var connect = require('gulp-connect');
 
 
-gulp.task('connect', function () {
+gulp.task('default', function () {
     connect.server({
         root: 'tennis-portal-app/',
 
         port: 5002
     });
+
+    gulp.task('default',['connect']);
 });
