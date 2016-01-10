@@ -1,6 +1,6 @@
 'use strict';
 
-describe('fun.tennisportal.home module', function() {
+describe('fun.tennisportal.gallery module', function() {
 
   beforeEach(module('fun.tennisportal.home'));
 

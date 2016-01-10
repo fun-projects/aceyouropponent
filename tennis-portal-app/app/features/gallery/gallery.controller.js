@@ -2,10 +2,10 @@
     'use strict';
 
     angular
-        .module('fun.tennisportal.home')
-        .controller('HomeController', HomeController);
+        .module('fun.tennisportal.gallery')
+        .controller('GalleryController', GalleryController);
 
-    function HomeController() {
+    function GalleryController() {
         var vm = this;
         vm.myInterval = 3000;
         vm.noWrapSlides = false;
