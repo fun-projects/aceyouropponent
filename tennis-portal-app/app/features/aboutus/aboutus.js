@@ -11,7 +11,7 @@
             .state('aboutusPage', {
                 url: '/aboutus',
                 templateUrl: 'features/aboutus/aboutus.html',
-                controller: 'AboutusController',
+                controller: 'AboutUsController',
                 controllerAs: 'aboutusVm'
             });
     }

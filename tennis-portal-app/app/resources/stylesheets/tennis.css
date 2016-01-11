@@ -34,35 +34,18 @@ article {
 .absolute-container {
   position: absolute;
 }
-h1 {
-  top: 60%;
-  width: 100%;
-  font-size: 36px;
-  letter-spacing: 3px;
-  line-height: normal;
-  color: #fff;
-  font-family: Oswald, sans-serif;
-  text-align: center;
+h3 {
+  color: #ffffff;
 }
+
 .fa.fa-angle-down{
   color: #ffffff;
 }
 .fa.fa-angle-down:hover{
   color: #000000;
 }
-@media (max-width: 1800px) {
-  .make-it-down {
-    margin-top: 35em;
-  }
+.make-it-down {
+  margin-top: 30em;
 }
-@media (max-width: 600px) {
-  .make-it-down {
-    margin-top: 35em;
-  }
-}
-@media (max-width: 600px) {
-  .make-it-down {
-    margin-top: 35em;
-  }
-}
+
 
