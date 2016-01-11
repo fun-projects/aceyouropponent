@@ -7,5 +7,9 @@
 
     function ContactUsController() {
         var vm = this;
+        
+        vm.submitContactUs = function () {
+            
+        };
     }
 }(angular));
