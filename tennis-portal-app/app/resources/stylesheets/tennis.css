@@ -44,6 +44,12 @@ h3 {
 .fa.fa-angle-down:hover{
   color: #000000;
 }
+.my-button{
+  background-color: transparent;
+  color: #ffffff;
+  font-size: larger;
+
+}
 .make-it-down {
   margin-top: 30em;
 }
