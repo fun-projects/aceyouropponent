@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-  background: #333;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -32,9 +31,10 @@ article {
   border: 10px solid rgba(255, 255, 255, 0.5);
   margin: 10px;
 }
-
-h1 {
+.absolute-container {
   position: absolute;
+}
+h1 {
   top: 60%;
   width: 100%;
   font-size: 36px;
@@ -45,6 +45,24 @@ h1 {
   text-align: center;
 }
 .fa.fa-angle-down{
-  color: #e9322d;
-  position: absolute;
+  color: #ffffff;
 }
+.fa.fa-angle-down:hover{
+  color: #000000;
+}
+@media (max-width: 1800px) {
+  .make-it-down {
+    margin-top: 35em;
+  }
+}
+@media (max-width: 600px) {
+  .make-it-down {
+    margin-top: 35em;
+  }
+}
+@media (max-width: 600px) {
+  .make-it-down {
+    margin-top: 35em;
+  }
+}
+
