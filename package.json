@@ -5,7 +5,7 @@
   "description": "A starter project for AngularJS",
   "repository": "https://github.com/fun-projects/aceyouropponent",
   "license": "MIT",
-    "engines": {
+  "engines": {
     "node": "0.10.x",
     "npm": "1.4.x",
     "bower": "1.4.x"
@@ -39,9 +39,10 @@
     "update-index-async": "node -e \"require('shelljs/global'); sed('-i', /\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/, '//@@NG_LOADER_START@@\\n' + sed(/sourceMappingURL=angular-loader.min.js.map/,'sourceMappingURL=bower_components/angular-loader/angular-loader.min.js.map','app/bower_components/angular-loader/angular-loader.min.js') + '\\n//@@NG_LOADER_END@@', 'app/index-async.html');\""
   },
   "dependencies": {
-     "bower": "^1.4.1",
     "body-parser": "^1.14.2",
+    "bower": "^1.4.1",
     "express": "^4.13.3",
+    "mongoose": "^4.3.6",
     "morgan": "^1.6.1",
     "passport": "^0.3.2",
     "path": "^0.12.7"

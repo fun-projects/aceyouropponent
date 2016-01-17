@@ -10,4 +10,7 @@ router.get('/', function(req, res) {
 });
 
 
+
+require('./registerEmailRoute')(router);
+
 module.exports = router;
