@@ -5,7 +5,7 @@
         .module('fun.tennisportal.contactus')
         .controller('ContactUsController', ContactUsController);
 
-    function ContactUsController(tennisPortalContactUsService) {
+    function ContactUsController(tennisPortalContactUsService, $log) {
         var vm = this;
 
 

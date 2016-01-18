@@ -13,7 +13,7 @@
          * @returns {*}
          */
         function createContact(user) {
-            return $http.post('/api name', user)
+            return $http.post('/register', user)
                 .success(function (result) {
                     $log.debug("User Successfully Created")
                     return result.data;
