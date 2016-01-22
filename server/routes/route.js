@@ -12,5 +12,6 @@ router.get('/', function(req, res) {
 
 
 require('./registerEmailRoute')(router);
+require('./instructorRoute')(router);
 
 module.exports = router;
