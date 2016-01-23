@@ -12,7 +12,9 @@
             'fun.tennisportal.aboutus',
 
             // local dependencies
-            'ngMap'
+            'ngMap',
+            //local services
+            'fun.tennisportal.services'
         ])
         .config(moduleConfig);
 

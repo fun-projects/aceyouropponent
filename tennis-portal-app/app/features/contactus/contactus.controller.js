@@ -5,11 +5,18 @@
         .module('fun.tennisportal.contactus')
         .controller('ContactUsController', ContactUsController);
 
-    function ContactUsController() {
+    function ContactUsController(tennisPortalContactUsService, $log) {
         var vm = this;
-        
+
+
+        /**
+         * Calls the add contact service on click of submit button
+         * @param contact
+         */
         vm.submitContactUs = function () {
-            
+            tennisPortalContactUsService.createContact(vm.user).success(function (result) {
+                $log.info(result);
+            });
         };
     }
 }(angular));
