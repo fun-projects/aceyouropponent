@@ -44,18 +44,14 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <label>Class Type</label>
-                        <select class="form-control" name="classtype" ng-model="contactUsVm.user.classType">
-                        </select>
+                        <label>Message</label>
+                        <span class="text-danger">*</span><br/>
+                        <textarea class="form-control" ng-model="contactUsVm.user.message" ng-maxlength="500"
+                                placeholder="Enter Your Message" ng-required="true"></textarea>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <label>Instructor</label>
-                        <select class="form-control" name="instructor" ng-model="contactUsVm.user.instructor">
-                        </select>
-                    </div>
-                </div><br>
+                <br>
+
                 <div class="row">
                     <div class="col-lg-12">
                         <button class="btn btn-primary btn-add-part" ng-disabled="contactForm.$invalid"

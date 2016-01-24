@@ -13,7 +13,9 @@
     "html5-boilerplate": "~5.2.0",
     "angular-ui-router": "~0.2.15",
     "angular-bootstrap": "~0.14.3",
-    "ngmap": "~1.16.3"
+    "ngmap": "~1.16.3",
+    "angular-ui-notification": "~0.1.0",
+    "underscore": "~1.8.3"
   },
   "devDependencies": {
     "font-awesome": "fontawesome#~4.5.0"
