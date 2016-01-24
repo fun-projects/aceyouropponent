@@ -25,6 +25,9 @@ var createMsgFromJson = function(data){
 	var msg = "";
     //madatory fields
     msg += data.name +" has sent you a message" + "\nemail " + data.email + "\nphone"+ data.phone ;
+    if(data.message){
+    	msg += "\nmessage  "+data.message;
+    }
 	return msg;
 
 
