@@ -50,11 +50,18 @@ h3 {
 .my-button{
   background-color: transparent;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 2em;
 
 }
 .make-it-down {
   margin-top: 25em;
+}
+.btn-style {
+  color:#ffffff;
+}
+.btn-style:hover {
+  text-decoration:none;
+  color: orange;
 }
 
 
