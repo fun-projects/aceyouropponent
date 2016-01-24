@@ -3,7 +3,7 @@
 
     angular.module('fun.tennisportal.instructordirective')
         .directive('instructor', instructor);
-    function instructor() {
+    function instructor(Notification) {
         return {
             restrict: 'E',
             scope: {},
@@ -19,7 +19,8 @@
                     return scope.selected === section;
                 }
                 scope.bookMe = function() {
-                    console.log("successfully booked" +scope.username);
+                    Notification.success("Successfully booked " +scope.username);
+                    console.log("Successfully booked " +scope.username);
                 }
             },
             template: '<div class="row">' +
